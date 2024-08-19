@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:ThemeTester"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary Source="DarkTheme.xaml"/>
     </Application.Resources>
 </Application>

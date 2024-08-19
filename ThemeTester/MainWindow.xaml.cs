@@ -37,8 +37,9 @@ namespace ThemeTester
 
         private void ApplyTheme()
         {
-            var uri = new System.Uri(isLightTheme ? "LightTheme.xaml" : "DarkTheme.xaml", System.UriKind.Relative);
-            ResourceDictionary resourceDict = Application.LoadComponent(uri) as ResourceDictionary;
+            var uri = new Uri(isLightTheme ? "LightTheme.xaml" : "DarkTheme.xaml", UriKind.Relative);
+
+            ResourceDictionary resourceDict = new ResourceDictionary() { Source = uri };
             Application.Current.Resources.Clear();
             Application.Current.Resources.MergedDictionaries.Add(resourceDict);
 
@@ -52,5 +53,7 @@ namespace ThemeTester
         public string Name { get; set; }
         public int Age { get; set; }
         public string Occupation { get; set; }
+
+        public bool Yes { get; set; }
     }
 }

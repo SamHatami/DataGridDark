@@ -3,10 +3,11 @@
     <SolidColorBrush x:Key="BackgroundColor" Color="#262d34"/>
     <SolidColorBrush x:Key="ForegroundColor" Color="#FFFFFF"/>
     <SolidColorBrush x:Key="ButtonBackgroundColor" Color="#3F3F46"/>
-    <SolidColorBrush x:Key="DataGirdBorderBrush" Color="#3F3F46"/>
+    <SolidColorBrush x:Key="DataGirdBorderBrush" Color="DimGray"/>
     <SolidColorBrush x:Key="DataGridBackground" Color="#171c22"/>
     <SolidColorBrush x:Key="DataGridRowBackground" Color="#262d34"/>
     <SolidColorBrush x:Key="ButtonForegroundColor" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="DataGridHeaderForeground" Color="LightGray"/>
 
     <Style x:Key="PrimaryButton" TargetType="Button">
         <Setter Property="BorderBrush" Value="#c7ad59"/>
@@ -16,18 +17,23 @@
     <Style TargetType="DataGrid">
         <Setter Property="Background" Value="#171c22"/>
         <Setter Property="Foreground" Value="#FFFFFF"/>
-        <Setter Property="GridLinesVisibility" Value="None"/>
-        <Setter Property="BorderThickness" Value="0"/>
         <Setter Property="BorderBrush" Value="{StaticResource DataGirdBorderBrush}"/>
-
+        <Setter Property="GridLinesVisibility" Value="All"/>
+        <Setter Property="BorderThickness" Value="1"></Setter>
+        <Setter Property="HorizontalGridLinesBrush" Value="{StaticResource DataGirdBorderBrush}"/>
+        <Setter Property="VerticalGridLinesBrush" Value="{StaticResource DataGirdBorderBrush}"/>
         <Setter Property="RowHeaderWidth" Value="0"/>
         <Setter Property="ColumnHeaderStyle">
             <Setter.Value>
                 <Style TargetType="DataGridColumnHeader">
                     <Setter Property="Background" Value="#171c22"/>
-                    <Setter Property="Foreground" Value="#8C8C8C"/>
+                    <Setter Property="Foreground" Value="{StaticResource DataGridHeaderForeground}"/>
+                    <Setter Property="BorderThickness" Value="0,0,1,1"/>
+                    <Setter Property="Padding" Value="5,0,5,0"/>
+                    <Setter Property="FontWeight" Value="SemiBold"/>
+                    <Setter Property="FontStretch" Value="SemiExpanded"/>
                     <Setter Property="Height" Value="30"/>
-                       <Setter Property="BorderThickness" Value="0"/>
+                    <Setter Property="BorderBrush" Value="{StaticResource DataGirdBorderBrush}"/>
                 </Style>
             </Setter.Value>
         </Setter>
@@ -35,18 +41,18 @@
             <Setter.Value>
                 <Style TargetType="DataGridRow">
                     <Setter Property="Focusable" Value="False"/>
+                    <Setter Property="BorderThickness" Value="0"/>
                     <Setter Property="Background" Value="{StaticResource DataGridRowBackground}"/>
                     <Setter Property="Height" Value="30"/>
                     <Setter Property="BorderBrush" Value="{StaticResource DataGirdBorderBrush}"/>
-                    <Setter Property="BorderThickness" Value="0,1,0,0"/>
                     <Setter Property="VerticalContentAlignment" Value="Center"/>
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Background" Value="#4b4732"/>
-                            <!-- Tomato color for mouseover -->
+                            <Setter Property="Background" Value="#507ba4"/>
+                            <!-- Blue color for mouseover -->
                         </Trigger>
                         <Trigger Property="IsSelected" Value="True">
-                            <Setter Property="Background" Value="#86743c"/>
+                            <Setter Property="Background" Value="{StaticResource DataGridRowBackground}"/>
                             <Setter Property="Foreground" Value="White"/>
                         </Trigger>
                     </Style.Triggers>
@@ -56,16 +62,28 @@
         <Setter Property="CellStyle">
             <Setter.Value>
                 <Style TargetType="DataGridCell">
-                    <Setter Property="VerticalAlignment" Value="Center"/>
-                    <Setter Property="BorderThickness" Value="0"/>
-                    <Setter Property="BorderBrush" Value="{StaticResource DataGirdBorderBrush}"/>
+                    <Setter Property="IsHitTestVisible" Value="True"></Setter>
                     <Style.Triggers>
                         <Trigger Property="IsSelected" Value="True">
-                            <Setter Property="Background" Value="Transparent"/>
+                            <Setter Property="Background" Value="{StaticResource DataGridRowBackground}"/>
                             <Setter Property="Foreground" Value="White"/>
                         </Trigger>
                     </Style.Triggers>
                 </Style>
+
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="{x:Type DataGridCell}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type DataGridCell}">
+                    <Grid Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="Center" Margin="5,0,5,0"/>
+                        
+                    </Grid>
+                </ControlTemplate>
             </Setter.Value>
         </Setter>
     </Style>
