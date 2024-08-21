@@ -1,44 +1,44 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\",
+  "WorkspaceRootPath": "C:\\Users\\samhat\\Workspace\\DataGridDark\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\mhata\\source\\repos\\themetester\\themetester\\toggleswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\samhat\\workspace\\datagriddark\\themetester\\toggleswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|solutionrelative:themetester\\toggleswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\mhata\\source\\repos\\themetester\\themetester\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\samhat\\workspace\\datagriddark\\themetester\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|solutionrelative:themetester\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\mhata\\source\\repos\\themetester\\themetester\\toggleswitchuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\samhat\\workspace\\datagriddark\\themetester\\toggleswitchuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|solutionrelative:themetester\\toggleswitchuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\mhata\\source\\repos\\themetester\\themetester\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\samhat\\workspace\\datagriddark\\themetester\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|solutionrelative:themetester\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\mhata\\source\\repos\\themetester\\themetester\\slidingtogglebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\samhat\\workspace\\datagriddark\\themetester\\slidingtogglebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|solutionrelative:themetester\\slidingtogglebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\mhata\\source\\repos\\themetester\\themetester\\toggleswitchuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\samhat\\workspace\\datagriddark\\themetester\\toggleswitchuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|solutionrelative:themetester\\toggleswitchuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mhata\\AppData\\Local\\Temp\\.vsdbgsrc\\4e84e9c1b897922ccadfa3d049ee2108391400103aa40bdcaa19e6141186a46e\\UIElement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\mhata\\source\\repos\\themetester\\themetester\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\samhat\\workspace\\datagriddark\\themetester\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|solutionrelative:themetester\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\mhata\\source\\repos\\themetester\\themetester\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\samhat\\workspace\\datagriddark\\themetester\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|solutionrelative:themetester\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\mhata\\source\\repos\\themetester\\themetester\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|c:\\users\\samhat\\workspace\\datagriddark\\themetester\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5911B947-B6C1-424C-87F5-6E8ACA5F9AA1}|ThemeTester\\ThemeTester.csproj|solutionrelative:themetester\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -55,27 +55,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 364,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "LightTheme.xaml",
-              "DocumentMoniker": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\LightTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\LightTheme.xaml",
               "RelativeDocumentMoniker": "ThemeTester\\LightTheme.xaml",
-              "ToolTip": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\LightTheme.xaml",
+              "ToolTip": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\LightTheme.xaml",
               "RelativeToolTip": "ThemeTester\\LightTheme.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-08-17T10:17:30.83Z",
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5726b0e3-1012-5233-81f9-d1fad48e7a56}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2e7065be-2911-5d06-9444-328203e57925}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ToggleSwitchUC.xaml",
-              "DocumentMoniker": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\ToggleSwitchUC.xaml",
+              "DocumentMoniker": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\ToggleSwitchUC.xaml",
               "RelativeDocumentMoniker": "ThemeTester\\ToggleSwitchUC.xaml",
-              "ToolTip": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\ToggleSwitchUC.xaml",
+              "ToolTip": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\ToggleSwitchUC.xaml",
               "RelativeToolTip": "ThemeTester\\ToggleSwitchUC.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-08-20T15:19:37.212Z"
@@ -85,9 +117,9 @@
               "DocumentIndex": 10,
               "Title": "FrameworkElement.cs",
               "DocumentMoniker": "C:\\Users\\mhata\\AppData\\Local\\Temp\\.vsdbgsrc\\17cdfe8a86711eb9aff3c00e8ac7aa94a4df199fd3bd4b79016571bfa9b0598e\\FrameworkElement.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\17cdfe8a86711eb9aff3c00e8ac7aa94a4df199fd3bd4b79016571bfa9b0598e\\FrameworkElement.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\mhata\\AppData\\Local\\Temp\\.vsdbgsrc\\17cdfe8a86711eb9aff3c00e8ac7aa94a4df199fd3bd4b79016571bfa9b0598e\\FrameworkElement.cs",
               "ToolTip": "C:\\Users\\mhata\\AppData\\Local\\Temp\\.vsdbgsrc\\17cdfe8a86711eb9aff3c00e8ac7aa94a4df199fd3bd4b79016571bfa9b0598e\\FrameworkElement.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\17cdfe8a86711eb9aff3c00e8ac7aa94a4df199fd3bd4b79016571bfa9b0598e\\FrameworkElement.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\mhata\\AppData\\Local\\Temp\\.vsdbgsrc\\17cdfe8a86711eb9aff3c00e8ac7aa94a4df199fd3bd4b79016571bfa9b0598e\\FrameworkElement.cs [Read Only]",
               "ViewState": "AQIAAGQJAAAAAAAAAAAcwHoJAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T21:09:49.542Z",
@@ -98,9 +130,9 @@
               "DocumentIndex": 11,
               "Title": "LargeSortedObjectMap.cs",
               "DocumentMoniker": "C:\\Users\\mhata\\AppData\\Local\\Temp\\.vsdbgsrc\\7bb74c079693004fe0da0870f5cceb0c59d190a6a7b211b50eb14345090c6a9e\\LargeSortedObjectMap.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\7bb74c079693004fe0da0870f5cceb0c59d190a6a7b211b50eb14345090c6a9e\\LargeSortedObjectMap.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\mhata\\AppData\\Local\\Temp\\.vsdbgsrc\\7bb74c079693004fe0da0870f5cceb0c59d190a6a7b211b50eb14345090c6a9e\\LargeSortedObjectMap.cs",
               "ToolTip": "C:\\Users\\mhata\\AppData\\Local\\Temp\\.vsdbgsrc\\7bb74c079693004fe0da0870f5cceb0c59d190a6a7b211b50eb14345090c6a9e\\LargeSortedObjectMap.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\7bb74c079693004fe0da0870f5cceb0c59d190a6a7b211b50eb14345090c6a9e\\LargeSortedObjectMap.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\mhata\\AppData\\Local\\Temp\\.vsdbgsrc\\7bb74c079693004fe0da0870f5cceb0c59d190a6a7b211b50eb14345090c6a9e\\LargeSortedObjectMap.cs [Read Only]",
               "ViewState": "AQIAAEwAAAAAAAAAAAAcwGIAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T21:09:39.024Z",
@@ -110,9 +142,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "DarkTheme.xaml",
-              "DocumentMoniker": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\DarkTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\DarkTheme.xaml",
               "RelativeDocumentMoniker": "ThemeTester\\DarkTheme.xaml",
-              "ToolTip": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\DarkTheme.xaml",
+              "ToolTip": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\DarkTheme.xaml",
               "RelativeToolTip": "ThemeTester\\DarkTheme.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-08-17T10:17:18.544Z"
@@ -121,9 +153,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ThemeTester\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\MainWindow.xaml",
               "RelativeToolTip": "ThemeTester\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-08-17T10:16:26.554Z"
@@ -132,9 +164,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ToggleSwitch.cs",
-              "DocumentMoniker": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\ToggleSwitch.cs",
+              "DocumentMoniker": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\ToggleSwitch.cs",
               "RelativeDocumentMoniker": "ThemeTester\\ToggleSwitch.cs",
-              "ToolTip": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\ToggleSwitch.cs",
+              "ToolTip": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\ToggleSwitch.cs",
               "RelativeToolTip": "ThemeTester\\ToggleSwitch.cs",
               "ViewState": "AQIAAGcAAAAAAAAAAAAIwHUAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -145,9 +177,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ToggleSwitchUC.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\ToggleSwitchUC.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\ToggleSwitchUC.xaml.cs",
               "RelativeDocumentMoniker": "ThemeTester\\ToggleSwitchUC.xaml.cs",
-              "ToolTip": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\ToggleSwitchUC.xaml.cs",
+              "ToolTip": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\ToggleSwitchUC.xaml.cs",
               "RelativeToolTip": "ThemeTester\\ToggleSwitchUC.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -157,9 +189,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ThemeTester\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\MainWindow.xaml.cs",
               "RelativeToolTip": "ThemeTester\\MainWindow.xaml.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAWwC0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -169,9 +201,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "SlidingToggleButton.cs",
-              "DocumentMoniker": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\SlidingToggleButton.cs",
+              "DocumentMoniker": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\SlidingToggleButton.cs",
               "RelativeDocumentMoniker": "ThemeTester\\SlidingToggleButton.cs",
-              "ToolTip": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\SlidingToggleButton.cs",
+              "ToolTip": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\SlidingToggleButton.cs",
               "RelativeToolTip": "ThemeTester\\SlidingToggleButton.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -182,9 +214,9 @@
               "DocumentIndex": 6,
               "Title": "UIElement.cs",
               "DocumentMoniker": "C:\\Users\\mhata\\AppData\\Local\\Temp\\.vsdbgsrc\\4e84e9c1b897922ccadfa3d049ee2108391400103aa40bdcaa19e6141186a46e\\UIElement.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4e84e9c1b897922ccadfa3d049ee2108391400103aa40bdcaa19e6141186a46e\\UIElement.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\mhata\\AppData\\Local\\Temp\\.vsdbgsrc\\4e84e9c1b897922ccadfa3d049ee2108391400103aa40bdcaa19e6141186a46e\\UIElement.cs",
               "ToolTip": "C:\\Users\\mhata\\AppData\\Local\\Temp\\.vsdbgsrc\\4e84e9c1b897922ccadfa3d049ee2108391400103aa40bdcaa19e6141186a46e\\UIElement.cs",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4e84e9c1b897922ccadfa3d049ee2108391400103aa40bdcaa19e6141186a46e\\UIElement.cs",
+              "RelativeToolTip": "..\\..\\..\\mhata\\AppData\\Local\\Temp\\.vsdbgsrc\\4e84e9c1b897922ccadfa3d049ee2108391400103aa40bdcaa19e6141186a46e\\UIElement.cs",
               "ViewState": "AQIAAMMUAAAAAAAAAAAkwNkUAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T19:57:48.567Z"
@@ -193,12 +225,22 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\App.xaml",
               "RelativeDocumentMoniker": "ThemeTester\\App.xaml",
-              "ToolTip": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\App.xaml",
+              "ToolTip": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\App.xaml",
               "RelativeToolTip": "ThemeTester\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-08-19T18:24:07.386Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 395,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

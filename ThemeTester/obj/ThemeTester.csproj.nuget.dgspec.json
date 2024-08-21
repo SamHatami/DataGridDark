@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\ThemeTester.csproj": {}
+    "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\ThemeTester.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\ThemeTester.csproj": {
+    "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\ThemeTester.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\ThemeTester.csproj",
+        "projectUniqueName": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\ThemeTester.csproj",
         "projectName": "ThemeTester",
-        "projectPath": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\ThemeTester.csproj",
-        "packagesPath": "C:\\Users\\mhata\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mhata\\source\\repos\\ThemeTester\\ThemeTester\\obj\\",
+        "projectPath": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\ThemeTester.csproj",
+        "packagesPath": "C:\\Users\\samhat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samhat\\Workspace\\DataGridDark\\ThemeTester\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mhata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\samhat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

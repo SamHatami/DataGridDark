@@ -1,60 +1,76 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
-                    xmlns:local="clr-namespace:ThemeTester">
-    <SolidColorBrush x:Key="BackgroundColor" Color="#262d34"/>
-    <SolidColorBrush x:Key="ForegroundColor" Color="#FFFFFF"/>
-    <SolidColorBrush x:Key="ButtonBackgroundColor" Color="#3F3F46"/>
-    <SolidColorBrush x:Key="DataGirdBorderBrush" Color="DimGray"/>
-    <SolidColorBrush x:Key="DataGridBackground" Color="#171c22"/>
-    <SolidColorBrush x:Key="DataGridRowBackground" Color="#262d34"/>
-    <SolidColorBrush x:Key="ButtonForegroundColor" Color="#FFFFFF"/>
-    <SolidColorBrush x:Key="DataGridHeaderForeground" Color="LightGray"/>
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:ThemeTester">
+    <SolidColorBrush x:Key="BackgroundColor" Color="#262d34" />
+    <SolidColorBrush x:Key="ForegroundColor" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="ButtonBackgroundColor" Color="#3F3F46" />
+    <SolidColorBrush x:Key="DataGirdBorderBrush" Color="DimGray" />
+    <SolidColorBrush x:Key="DataGridBackground" Color="#171c22" />
+    <SolidColorBrush x:Key="DataGridRowBackground" Color="#262d34" />
+    <SolidColorBrush x:Key="ButtonForegroundColor" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="DataGridHeaderForeground" Color="LightGray" />
 
     <Style x:Key="PrimaryButton" TargetType="Button">
-        <Setter Property="BorderBrush" Value="#c7ad59"/>
-        <Setter Property="Background" Value="#4b4732"/>
-        <Setter Property="Foreground" Value="#c7ad59"/>
+        <Setter Property="BorderBrush" Value="#c7ad59" />
+        <Setter Property="Background" Value="#4b4732" />
+        <Setter Property="Foreground" Value="#c7ad59" />
     </Style>
+
+    <Style x:Key="PrimaryIconButton" TargetType="Button">
+        <Setter Property="BorderBrush" Value="#c7ad59" />
+        <Setter Property="Background" Value="#4b4732" />
+        <Setter Property="Foreground" Value="#c7ad59" />
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Opacity" Value="0.5" />
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="True">
+                <Setter Property="Opacity" Value="1" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
     <Style TargetType="DataGrid">
-        <Setter Property="Background" Value="#171c22"/>
-        <Setter Property="Foreground" Value="#FFFFFF"/>
-        <Setter Property="BorderBrush" Value="{StaticResource DataGirdBorderBrush}"/>
-        <Setter Property="GridLinesVisibility" Value="All"/>
-        <Setter Property="BorderThickness" Value="1"></Setter>
-        <Setter Property="HorizontalGridLinesBrush" Value="{StaticResource DataGirdBorderBrush}"/>
-        <Setter Property="VerticalGridLinesBrush" Value="{StaticResource DataGirdBorderBrush}"/>
-        <Setter Property="RowHeaderWidth" Value="0"/>
+        <Setter Property="Background" Value="#171c22" />
+        <Setter Property="Foreground" Value="#FFFFFF" />
+        <Setter Property="BorderBrush" Value="{StaticResource DataGirdBorderBrush}" />
+        <Setter Property="GridLinesVisibility" Value="All" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="HorizontalGridLinesBrush" Value="{StaticResource DataGirdBorderBrush}" />
+        <Setter Property="VerticalGridLinesBrush" Value="{StaticResource DataGirdBorderBrush}" />
+        <Setter Property="RowHeaderWidth" Value="0" />
         <Setter Property="ColumnHeaderStyle">
             <Setter.Value>
                 <Style TargetType="DataGridColumnHeader">
-                    <Setter Property="Background" Value="#171c22"/>
-                    <Setter Property="Foreground" Value="{StaticResource DataGridHeaderForeground}"/>
-                    <Setter Property="BorderThickness" Value="0,0,1,1"/>
-                    <Setter Property="Padding" Value="5,0,5,0"/>
-                    <Setter Property="FontWeight" Value="SemiBold"/>
-                    <Setter Property="FontStretch" Value="SemiExpanded"/>
-                    <Setter Property="Height" Value="30"/>
-                    <Setter Property="BorderBrush" Value="{StaticResource DataGirdBorderBrush}"/>
+                    <Setter Property="Background" Value="#171c22" />
+                    <Setter Property="Foreground" Value="{StaticResource DataGridHeaderForeground}" />
+                    <Setter Property="BorderThickness" Value="0,0,1,1" />
+                    <Setter Property="Padding" Value="5,0,5,0" />
+                    <Setter Property="FontWeight" Value="SemiBold" />
+                    <Setter Property="FontStretch" Value="SemiExpanded" />
+                    <Setter Property="Height" Value="30" />
+                    <Setter Property="BorderBrush" Value="{StaticResource DataGirdBorderBrush}" />
                 </Style>
             </Setter.Value>
         </Setter>
         <Setter Property="RowStyle">
             <Setter.Value>
                 <Style TargetType="DataGridRow">
-                    <Setter Property="Focusable" Value="False"/>
-                    <Setter Property="BorderThickness" Value="0"/>
-                    <Setter Property="Background" Value="{StaticResource DataGridRowBackground}"/>
-                    <Setter Property="Height" Value="30"/>
-                    <Setter Property="BorderBrush" Value="{StaticResource DataGirdBorderBrush}"/>
-                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    <Setter Property="Focusable" Value="False" />
+                    <Setter Property="BorderThickness" Value="0" />
+                    <Setter Property="Background" Value="{StaticResource DataGridRowBackground}" />
+                    <Setter Property="Height" Value="30" />
+                    <Setter Property="BorderBrush" Value="{StaticResource DataGirdBorderBrush}" />
+                    <Setter Property="VerticalContentAlignment" Value="Center" />
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Background" Value="#507ba4"/>
-                            <!-- Blue color for mouseover -->
+                            <Setter Property="Background" Value="#507ba4" />
+                            <!--  Blue color for mouseover  -->
                         </Trigger>
                         <Trigger Property="IsSelected" Value="True">
-                            <Setter Property="Background" Value="{StaticResource DataGridRowBackground}"/>
-                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="Background" Value="{StaticResource DataGridRowBackground}" />
+                            <Setter Property="Foreground" Value="White" />
                         </Trigger>
                     </Style.Triggers>
                 </Style>
@@ -63,15 +79,14 @@
         <Setter Property="CellStyle">
             <Setter.Value>
                 <Style TargetType="DataGridCell">
-                    <Setter Property="IsHitTestVisible" Value="True"></Setter>
+                    <Setter Property="IsHitTestVisible" Value="True" />
                     <Style.Triggers>
                         <Trigger Property="IsSelected" Value="True">
-                            <Setter Property="Background" Value="{StaticResource DataGridRowBackground}"/>
-                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="Background" Value="{StaticResource DataGridRowBackground}" />
+                            <Setter Property="Foreground" Value="White" />
                         </Trigger>
                     </Style.Triggers>
                 </Style>
-
             </Setter.Value>
         </Setter>
     </Style>
@@ -81,36 +96,37 @@
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type DataGridCell}">
                     <Grid Background="{TemplateBinding Background}">
-                        <ContentPresenter VerticalAlignment="Center" Margin="5,0,5,0"/>
-                        
+                        <ContentPresenter Margin="5,0,5,0" VerticalAlignment="Center" />
                     </Grid>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
     </Style>
 
-    <!-- DO NOT REMOVE THIS - TOGGLESWITCH CONTROL IS DEPENDANT ON THIS CODE -->
+    <!--  DO NOT REMOVE THIS - TOGGLESWITCH CONTROL IS DEPENDANT ON THIS CODE  -->
     <Style TargetType="{x:Type local:ToggleSwitch}">
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type local:ToggleSwitch}">
                     <Grid>
-                        <!-- Background of the Toggle -->
-                        <Border x:Name="PART_Background"
-                                Width="{TemplateBinding ToggleWidth}"
-                                Height="{TemplateBinding ToggleHeight}"
-                                CornerRadius="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=ToggleRadius}"
-                                Background="LightGray"
-                                BorderBrush="Gray"
-                                BorderThickness="1">
+                        <!--  Background of the Toggle  -->
+                        <Border
+                            x:Name="PART_Background"
+                            Width="{TemplateBinding ToggleWidth}"
+                            Height="{TemplateBinding ToggleHeight}"
+                            Background="LightGray"
+                            BorderBrush="Gray"
+                            BorderThickness="1"
+                            CornerRadius="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=ToggleRadius}">
 
-                            <!-- Movable Circle -->
-                            <Ellipse x:Name="PART_Knob"
-                                     Fill="White"
-                                     Stroke="Gray"
-                                     HorizontalAlignment="Left"
-                                     VerticalAlignment="Center"
-                                     Margin="2"/>
+                            <!--  Movable Circle  -->
+                            <Ellipse
+                                x:Name="PART_Knob"
+                                Margin="2"
+                                HorizontalAlignment="Left"
+                                VerticalAlignment="Center"
+                                Fill="White"
+                                Stroke="Gray" />
                         </Border>
                     </Grid>
                 </ControlTemplate>
